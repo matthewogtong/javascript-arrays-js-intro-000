@@ -19,3 +19,13 @@ function destructivelyAddElementToEndOfArray(array, element) {
   array.push(element)
   return array
 }
+
+function accessElementInArray(array, index) {
+  selectedElement = array[index]
+  return selectedElement
+}
+
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+  array.shift()
+  return array
+}
